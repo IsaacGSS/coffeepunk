@@ -118,8 +118,10 @@ main {
 
 
 /* segunda ṕarte */
+/* quadro que mostra a venda do café */
 .pre02 {
-  display: flex;
+  display: block;
+  
   background-color: white;
   margin: auto;  
   padding: 44px 33px 33px 33px;
@@ -128,14 +130,22 @@ main {
   box-shadow: 10px 10px 30px #a4ad0044;
 }
 
+span {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between ;
+}
+
+
+
 .div-one {
-  display: flexbox;
+  display: block ;
   max-width: 500px;
   height: fit-content;
   padding: 20px;
 
 
-  background-color: black;
+  background-color: #18110b;
   color: white;
   
   
@@ -154,16 +164,21 @@ main {
   min-width: 9rem;
 }
 
+
+/* botão do cafe */
 .botao-comprar-cafe{
   width: 100px;
   height: 50px;
   margin: auto;
   margin-top: 15px;
   display: block;
-
 }
 
-.botao-comprar-cafe > p {
+.botao-comprar-cafe > img {
+  display: none;
+}
+
+.botao-comprar-cafe {
   color: white;
   font-family: 'Roboto', sans-serif;
   text-align: center;
@@ -173,16 +188,55 @@ main {
   width: 100px;
   height: 25px;
   padding: 5px;
-
+  transition: ease-in-out all 0.6s;
 }
 
-/* .cafe-img {
-  display: inline-flexbox;
+.botao-comprar-cafe:hover > p {
+  display: none;
 }
+
+.botao-comprar-cafe:hover > img {
+  display: block;
+  margin: auto;
+  width: 35px;
+  height: 35px;
+}
+
+.botao-comprar-cafe:hover {
+  border-radius: 25%;
+  width: 38px;
+  height: 38px;
+  border: none;
+  background-color: white;
+}
+
+/* foto do cafe */
+div.f-cafe > img {
+ width: 400px;
+ height: 400px;
+ object-fit: cover;
+ padding: 1rem;
+
+}
+@media (max-width:780px){
+
+  span {
+    display: block;
+  }
+  
+  div.f-cafe {
+    display: block;
+    margin: auto;
+    padding: 20px 0; 
+  }
+
+  div.f-cafe > img{ 
+    max-width: 300px;
+    max-height: 375px;
+    object-fit: cover;
+    padding: 0;
+    margin: auto;
+  }
+
  
-
-.cafe-img >img{
-  width: 320px;
-  height: 483px;
-} */
-
+}
