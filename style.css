@@ -1,5 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@media (max-width: 720px){
+  section.cafe > div {
+  display: block;
+  }
+
+  span.img-cf > img {
+  width: 300px;
+  height: 500px;
+  object-fit: cover;
+
+}
+
+div.cafe-mobile {
+  display: block;
+  position: absolute;
+
+  max-width: 250px;
+  height: 480px;
+  padding: 0px 20px;
+  
+  background-color: transparent;
+  color: black;
+  
+}
+
+div.cafe-mobile  >  h2{
+  font-family: 'Bebas Neue', sans-serif;  
+  font-size: 9rem;
+}
+
+div.cafe-mobile  > p {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 17px;
+  text-align: justify;
+  line-height: 1.5em;
+  min-width: 9rem;
+
+  color: rgba(255, 255, 255, 0.322);
+
+  padding-top: 200px;
+}
+
+
+div.div-one {display: none;}
+
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -58,7 +105,7 @@ li, a, .logo {
 .nav_links li a:hover {
   background-color: #5c00ad;  
   color: rgba(255, 255, 255, 0.904);
-  box-shadow: 0px -5px 7.5px #a4ad0041 ;
+  box-shadow: 5px -5px 7.5px #a4ad009a ;
   padding: 3.5px 10px;
   border-radius: 3.5px;
 }
@@ -119,35 +166,48 @@ main {
 
 /* segunda ṕarte */
 /* quadro que mostra a venda do café */
-.pre02 {
-  display: block;
-  
-  background-color: white;
-  margin: auto;  
+.cafe {
+  display: inline-flexbox;
+
+
+  max-width: 1113px;
+  height: 100%;
   padding: 44px 33px 33px 33px;
-  max-width: 1111px;  
-  height: 100vh;
-  box-shadow: 10px 10px 30px #a4ad0044;
+  margin: auto;
+
+  background-color: white;
+  box-shadow: 10px 10px 30px #a4ad0080;
+  
 }
 
-span {
+
+.cafe > div {
   display: flex;
   flex-direction: row;
-  justify-content: space-between ;
+  justify-content: space-between ;  
 }
 
+.cafe-mobile {
+  display: none;
+}
 
+span img {
+  width: 500px;
+  height: 473px;
+  object-fit: cover;
+}
 
 .div-one {
-  display: block ;
+
+  display: block;
   max-width: 500px;
-  height: fit-content;
+  height: 100%;
+
   padding: 20px;
 
 
   background-color: #18110b;
   color: white;
-  
   
 }
 
@@ -165,7 +225,7 @@ span {
 }
 
 
-/* botão do cafe */
+
 .botao-comprar-cafe{
   width: 100px;
   height: 50px;
@@ -208,35 +268,4 @@ span {
   height: 38px;
   border: none;
   background-color: white;
-}
-
-/* foto do cafe */
-div.f-cafe > img {
- width: 400px;
- height: 400px;
- object-fit: cover;
- padding: 1rem;
-
-}
-@media (max-width:780px){
-
-  span {
-    display: block;
-  }
-  
-  div.f-cafe {
-    display: block;
-    margin: auto;
-    padding: 20px 0; 
-  }
-
-  div.f-cafe > img{ 
-    max-width: 300px;
-    max-height: 375px;
-    object-fit: cover;
-    padding: 0;
-    margin: auto;
-  }
-
- 
 }
