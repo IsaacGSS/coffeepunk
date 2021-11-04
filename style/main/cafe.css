@@ -1,16 +1,14 @@
 /* Quando usado em aparelhos mobiles */
 
 @media (max-width: 720px){
-section.sec > div {
+  section.sec > div {
   display: block;
-}
+  }
 
-span.img-cf > img {
+  span.img-cf > img {
   width: 300px;
   height: 500px;
   object-fit: cover;
-
- box-shadow: -15px -15px 8px rgba(58, 58, 58, 0.397);
 
 }
 

@@ -17,7 +17,7 @@ footer#footer {
 
 #footer > .d-01, .d-02, .d-03 {
   position: relative;
-  transition: 0.3s;
+
   color: white;
 }
 
@@ -26,17 +26,15 @@ footer#footer {
   padding-top: 10vh;
 }
 
-#footer h3 > a {
+#footer h3 {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 100px;
-  color: white;
-  cursor: pointer;
 }
 
-.footer-nav  a{
+.footer-nav a{
  font-family: 'Chakra Petch', sans-serif;
  font-size: 20px;
- padding: 0px 5px;
+ padding: 5px;
 }
 
 .d-03 {
@@ -46,40 +44,19 @@ footer#footer {
 
 .d-03 li {
   display: inline-block;
-  width: 25px;
-  height: 25px;
   background-color: rgba(187, 186, 186, 0.63);
-  border-radius: 50%;
+  border-radius: 100%;
   padding: 2.5px;
-  transition: 0.3s;
 }
 
-.d-03 li:hover {
-   background-color: rgba(255, 255, 255, 0.404);
-  box-shadow: -5px 2px 1px rgba(146, 146, 146, 0.795);
-  color: black;
-  margin: 0px 5px;
-  border-radius: 0px 8px;
-}
-
-.d-02 li a:hover {
-  background-color: rgba(255, 255, 255, 0.404);
-  box-shadow: -5px 2px 1px rgba(146, 146, 146, 0.795);
-  color: black;
-  font-size: 21px;
-  margin: 10px;
-  border-radius: 0px 8.4px;
-}
-
-footer#footer > div.roda-pe img{
-  position: absolute;
-  display: block;
-  flex-direction: column;
-  align-items: stretch;
+.roda-pe{
+ position: absolute;
 
   width: 100%;
   height: 100%;
 
+  background-image: url("/imagens/footer-background-1.jpg");
   object-fit: cover; 
   filter: blur(1.5px);
 }
+
