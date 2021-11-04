@@ -1,0 +1,62 @@
+footer#footer {
+  display: flexbox;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+
+  text-align: center;
+  
+  position: absolute;
+
+  width: 100%;
+  height: 50vh;
+
+  background-color: black;
+  
+}
+
+#footer > .d-01, .d-02, .d-03 {
+  position: relative;
+
+  color: white;
+}
+
+#footer h3, .footer-nav  a{
+  color: white;
+  padding-top: 10vh;
+}
+
+#footer h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 100px;
+}
+
+.footer-nav a{
+ font-family: 'Chakra Petch', sans-serif;
+ font-size: 20px;
+ padding: 5px;
+}
+
+.d-03 {
+  list-style: none;
+  padding-top: 25px;
+}
+
+.d-03 li {
+  display: inline-block;
+  background-color: rgba(187, 186, 186, 0.63);
+  border-radius: 100%;
+  padding: 2.5px;
+}
+
+.roda-pe{
+ position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  background-image: url("/imagens/footer-background\(1\).jpg");
+  object-fit: cover; 
+  filter: blur(1.5px);
+}
+

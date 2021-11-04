@@ -1,0 +1,142 @@
+@media (max-width: 720px){
+  section.sec > div {
+  display: block;
+  }
+
+  span.img-ct > img {
+  width: 300px;
+  height: 500px;
+  object-fit: cover;
+
+}
+
+div.ct-mobile {
+  display: block;
+  position: absolute;
+
+  max-width: 250px;
+  height: 480px;
+  padding: 0px 20px;
+  
+  background-color: transparent;
+  color: black;
+  
+}
+
+div.ct-mobile  >  h2{
+  font-family: 'Bebas Neue', sans-serif;  
+  font-size: 6em;
+  margin: 0px 0px 70px 0px;
+}
+
+div.ct-mobile  > p {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 17px;
+  text-align: justify;
+  line-height: 1.5em;
+  min-width: 9rem;
+
+  color: rgba(19, 18, 18, 0.644);
+
+  padding-top: 200px;
+}
+
+
+div.div-two {display: none;}
+
+}
+
+
+/* segunda ṕarte */
+/* anucio do café */
+#Cyber-T {
+  margin: 55px auto;
+}
+
+.sec > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between ;  
+}
+
+.ct-mobile {
+  display: none;
+}
+
+span img {
+  width: 500px;
+  height: 473px;
+  object-fit: cover;
+}
+
+.div-two {
+  display: block;
+
+  max-width: 500px;
+  height: 100%;
+  padding: 20px;
+  margin: 37px 0px 0px 10px;
+
+
+  background-color: #040222;
+  color: white;
+}
+
+.div-two h2{
+  font-family: 'Bebas Neue', sans-serif;  
+  font-size: 9rem;
+}
+
+.div-two > p {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 17px;
+  text-align: justify;
+  line-height: 2em;
+  min-width: 9rem;
+}
+
+
+
+.botao-comprar-ct{
+  width: 100px;
+  height: 50px;
+  margin: auto;
+  margin-top: 15px;
+  display: block;
+}
+
+.botao-comprar-ct > img {
+  display: none;
+}
+
+.botao-comprar-ct {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  border: 3px solid white;
+  width: 100px;
+  height: 25px;
+  padding: 5px;
+  transition: ease-in-out all 0.6s;
+}
+
+.botao-comprar-ct:hover > p {
+  display: none;
+}
+
+.botao-comprar-ct:hover > img {
+  display: block;
+  margin: auto;
+  width: 35px;
+  height: 35px;
+}
+
+.botao-comprar-ct:hover {
+  border-radius: 25%;
+  width: 38px;
+  height: 38px;
+  border: none;
+  background-color: white;
+}
