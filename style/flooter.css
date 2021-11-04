@@ -55,7 +55,7 @@ footer#footer {
   width: 100%;
   height: 100%;
 
-  background-image: url("/imagens/footer-background\(1\).jpg");
+  background-image: url("/imagens/footer-background-1.jpg");
   object-fit: cover; 
   filter: blur(1.5px);
 }
