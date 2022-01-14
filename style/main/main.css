@@ -20,14 +20,13 @@ main {
 }
 
 .pre01{
-  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 100%;
-  height: 80vh;
+  width: 100vw;
+  height: 90vh;
 }
 
 .pre01 h1 {
@@ -43,10 +42,9 @@ main {
 
 
 /* butão 'Hyper Future' */
-.pre01 .button-start {
+.button-start {
   cursor: pointer;
-  position: relative;
-  top: 45px; right: 0px;
+  line-height: 12rem;
   padding: 10px 20px;
 
   font-family: 'Roboto',sans-serif;
@@ -57,26 +55,6 @@ main {
   border: 4px solid white;
 
   transition: 0.4s;
-  
-}
-
-.pre01 .button-start:hover {
-  background-color: #a4ad0027;
-  padding: 12px 22px;
-  border: 5px solid white;
-}
-
-/* butão 'Hyper Future' */
-.pre01 .button-start {
-  font-family: 'Roboto',sans-serif;
-  cursor: pointer;
-  background-color: transparent;
-  box-shadow: 5px 5px 15px #a4ad0052;
-  position: relative;
-  top: 45px; right: 0px;
-  transition: 0.4s;
-  border: 4px solid white;
-  padding: 10px 20px;
   
 }
 

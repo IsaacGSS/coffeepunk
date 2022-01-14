@@ -1,6 +1,6 @@
 @media (max-width: 720px){
   section.sec > div {
-  display: block;
+  
   text-align: center;
 }
 
@@ -12,11 +12,21 @@
   box-shadow: -15px -15px 8px rgba(58, 58, 58, 0.397);
 }
 
+as.img-ct {
+  margin: auto;
+}
+
 div.ct-mobile {
   display: block;
   position: absolute;
 
-  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+
+  max-width: 268px;
   max-height: 480px;
   padding: 0px 20px;
   margin: auto;
@@ -30,6 +40,7 @@ div.ct-mobile  >  h2{
   font-family: 'Bebas Neue', sans-serif;  
   font-size: 6em;
   margin: 0px 0px 70px 0px;
+  text-align: start;  
 }
 
 div.ct-mobile  > p {
@@ -73,7 +84,7 @@ span img {
 }
 
 .div-two {
-  display: block;
+  display: flexbox;
 
   max-width: 500px;
   height: 100%;
